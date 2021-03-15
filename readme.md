@@ -15,11 +15,7 @@
   ~ limitations under the License
   -->
 
-feature:repo-add mvn:org.apache.unomi/unomi-plugins-uql-karaf-kar/1.5.4/unomi-plugins-uql-karaf-kar-1.5.4-features.xml
-feature:repo-add mvn:unomi-plugins-uql/unomi-plugins-uql-karaf-kar/1.5.4/xml/features
-
-feature:repo-add file:/plugins/unomi-plugins-uql-karaf-kar/1.5.4/xml/features
-
+bungle:start <plugin-name>
 
 Error executing command: Error executing command on bundles:
 Error starting bundle 13: Unable to resolve unomi-plugins-uql-core [13](R 13.0): missing requirement [unomi-plugins-uql-core [13](R 13.0)] osgi.wiring.package; (osgi.wiring.package=org.apache.unomi.plugins.uql.actions) Unresolved requirements: [[unomi-plugins-uql-core [13](R 13.0)] osgi.wiring.package; (osgi.wiring.package=org.apache.unomi.plugins.uql.actions)]
