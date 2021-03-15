@@ -87,6 +87,7 @@
                     <instructions>
                         <Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Bundle-Name>Apache Unomi :: Plugins :: UQL :: Actions and Conditions</Bundle-Name>
                         <Bundle-Version>${project.version}</Bundle-Version>
                         <Import-Package>
                             jdk.internal.module;resolution:=optional,
@@ -94,6 +95,9 @@
                             javassist;resolution:=optional,
                             !com.sun.jdi*,
                             org.osgi.framework,
+                            org.apache.unomi.api,
+                            org.apache.unomi.api.actions,
+                            org.apache.unomi.api.services,
                             *
                         </Import-Package>
                         <Export-Package>

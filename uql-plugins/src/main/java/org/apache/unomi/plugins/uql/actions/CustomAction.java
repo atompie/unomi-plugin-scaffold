@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package uql.actions;
+package org.apache.unomi.plugins.uql.actions;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.apache.unomi.api.Event;
