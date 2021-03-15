@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "id": "CustomAction",
+    "name": "CustomAction",
+    "description": "Custom action",
+    "systemTags": [
+      "profileTags",
+      "demographic",
+      "availableToEndUser",
+      "allowMultipleInstances"
+    ],
+    "readOnly": true
+  },
+  "actionExecutor": "CustomAction",
+  "parameters": [
+    {
+      "id": "param1",
+      "type": "string",
+      "multivalued": false
+    },
+    {
+      "id": "param2",
+      "type": "string",
+      "multivalued": false
+    }
+  ]
+}
